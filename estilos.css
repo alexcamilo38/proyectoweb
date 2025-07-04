@@ -1,3 +1,72 @@
 body{
-    background-color: blue;
+    background-color: rgba(226, 226, 235, 0.801);
+}
+nav ul{
+    list-style: none;
+    padding: 6px;
+    margin:0 auto;
+    display: flex;
+    grid-row: auto;
+    justify-content: center;
+}
+nav li a{
+    text-emphasis: none;
+    color: chocolate;
+    padding: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.img01{
+    width: 15%;
+    height: auto;
+    padding: 2px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+   
+}
+header{
+    background-color: rgb(136, 211, 207);
+    width: 100%;
+}
+h1{
+    color: chocolate;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.img02{
+    width: 15%;
+    height: auto;
+    padding: 2px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px; 
+     
+}
+footer{
+    background-color: black;
+    color: rgb(235, 223, 223);
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 12px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+main{
+    background-color: rgb(205, 255, 232);
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{ 
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{ 
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    
 }
